@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .container {
+    max-width: 850px;
+  }
+  .promo__header {
+    font-size: 38px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 650px;
+  }
+  .advantages {
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__item {
+      max-width: 240px;
+      margin-top: 30px;
+    }
+  }
+}
