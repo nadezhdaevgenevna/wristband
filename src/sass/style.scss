@@ -3,3 +3,14 @@
 * {
   font-family: "Museo Sans";
 }
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/header.scss";
+@import "blocks/button";
+@import "blocks/advantages";
+@import "blocks/title";
