@@ -13,6 +13,7 @@
   .advantages {
     &__wrapper {
       flex-wrap: wrap;
+      justify-content: stretch;
       justify-content: space-around;
     }
     &__item {
